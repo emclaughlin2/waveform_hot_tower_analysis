@@ -24,4 +24,15 @@ waveform_src/install-sh
 ihcal_condor
 ohcal_condor
 emcal_condor
+macro
 
+emcal_macros/*.root
+emcal_macros/*.txt
+
+emcal_new/*.root
+emcal_new/*.txt
+emcal_new/*.err
+emcal_new/*.out
+
+hcal_macros/*.root
+hcal_macros/*.txt

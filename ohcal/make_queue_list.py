@@ -5,12 +5,12 @@ end = int(sys.argv[2])
     
 for i in range(start,end):
     #ihcal
-    print(f"/sphenix/lustre01/sphnxpro/commissioning/HCal/junk/pedestal_seb16-000{i}-0000.prdf, ihcal_towers_16_{i}.root, hot_tower_analysis_ihcal_16_{i}.root, high_chi2_analysis_ihcal_16_{i}.root, hta_ihcal_16_{i}.txt, hot_tower_waveform_ihcal_16_{i}.root, waveforms_ihcal_16_{i}.root")
-    print(f"/sphenix/lustre01/sphnxpro/commissioning/HCal/junk/pedestal_seb17-000{i}-0000.prdf, ihcal_towers_17_{i}.root, hot_tower_analysis_ihcal_17_{i}.root, high_chi2_analysis_ihcal_17_{i}.root, hta_ihcal_17_{i}.txt, hot_tower_waveform_ihcal_17_{i}.root, waveforms_ihcal_17_{i}.root")
+    #print(f"/sphenix/lustre01/sphnxpro/commissioning/HCal/junk/pedestal_seb16-000{i}-0000.prdf, ihcal_towers_16_{i}.root, hot_tower_analysis_ihcal_16_{i}.root, high_chi2_analysis_ihcal_16_{i}.root, hta_ihcal_16_{i}.txt, hot_tower_waveform_ihcal_16_{i}.root, waveforms_ihcal_16_{i}.root")
+    #print(f"/sphenix/lustre01/sphnxpro/commissioning/HCal/junk/pedestal_seb17-000{i}-0000.prdf, ihcal_towers_17_{i}.root, hot_tower_analysis_ihcal_17_{i}.root, high_chi2_analysis_ihcal_17_{i}.root, hta_ihcal_17_{i}.txt, hot_tower_waveform_ihcal_17_{i}.root, waveforms_ihcal_17_{i}.root")
     
     #ohcal
-    #print(f"/sphenix/lustre01/sphnxpro/commissioning/HCal/junk/pedestal_seb16-000{i}-0000.prdf, ohcal_towers_16_{i}.root, hot_tower_analysis_ohcal_16_{i}.root, high_chi2_analysis_ohcal_16_{i}.root, hta_ohcal_16_{i}.txt, hot_tower_waveform_ohcal_16_{i}.root, waveforms_ohcal_16_{i}.root")
-    #print(f"/sphenix/lustre01/sphnxpro/commissioning/HCal/junk/pedestal_seb17-000{i}-0000.prdf, ohcal_towers_17_{i}.root, hot_tower_analysis_ohcal_17_{i}.root, high_chi2_analysis_ohcal_17_{i}.root, hta_ohcal_17_{i}.txt, hot_tower_waveform_ohcal_17_{i}.root, waveforms_ohcal_17_{i}.root")
+    print(f"/sphenix/lustre01/sphnxpro/commissioning/HCal/junk/pedestal_seb16-000{i}-0000.prdf, ohcal_towers_16_{i}.root, hot_tower_analysis_ohcal_16_{i}.root, high_chi2_analysis_ohcal_16_{i}.root, hta_ohcal_16_{i}.txt, hot_tower_waveform_ohcal_16_{i}.root, waveforms_ohcal_16_{i}.root")
+    print(f"/sphenix/lustre01/sphnxpro/commissioning/HCal/junk/pedestal_seb17-000{i}-0000.prdf, ohcal_towers_17_{i}.root, hot_tower_analysis_ohcal_17_{i}.root, high_chi2_analysis_ohcal_17_{i}.root, hta_ohcal_17_{i}.txt, hot_tower_waveform_ohcal_17_{i}.root, waveforms_ohcal_17_{i}.root")
 
     #emcal
     #print(f"/sphenix/lustre01/sphnxpro/commissioning/emcal/junk/pedestal_seb00-000{i}-0000.prdf, cemc_towers_00_{i}.root, hot_tower_analysis_00_{i}.root, high_chi2_analysis_00_{i}.root, hta_00_{i}.txt, hot_tower_waveform_cemc_00_{i}.root, waveforms_cemc_00_{i}.root")

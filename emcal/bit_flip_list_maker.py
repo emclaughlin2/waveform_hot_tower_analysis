@@ -18,7 +18,7 @@ def extract_numbers(line):
 
     return key, value
 
-directory_path = '/sphenix/user/egm2153/calib_study/waveform_analysis_ht/ohcal'
+directory_path = '/sphenix/user/egm2153/calib_study/waveform_analysis_ht/emcal'
 all_files = os.listdir(directory_path)
 file_names = [file for file in all_files if file.endswith(".txt")]
 
